@@ -93,7 +93,7 @@ int main(int argc, char *argv[])
 
 
 		//Card 2 (Ace of Spades)
-		modelMatrix.Rotate((lastFrameTicks));
+		modelMatrix.Rotate(lastFrameTicks);
 		program.setModelMatrix(modelMatrix);
 		modelMatrix.identity();
 		float vertices2[] = { -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5 };
